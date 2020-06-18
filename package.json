@@ -2,10 +2,11 @@
 	"name": "clash-api",
 	"version": "0.0.0-dev",
 	"description": "Clash of Clans API in typescript",
-	"main": "index.js",
+	"main": "build/index.js",
+	"types": "build/index.d.ts",
 	"scripts": {
 		"build": "tsc",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\""
 	},
 	"repository": {
 		"type": "git",
